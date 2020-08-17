@@ -1,10 +1,12 @@
 //Assignment Code
 var generateBtn = document.querySelector("#generate");
+var copyButton = document.querySelector("#copy");
+
 var passLength = prompt("How many characters should your password have? Choose between 8 and 128.");
 
 //this makes sure user follows pw length directions
 while (passLength < 8 || passLength > 128) {
-    passLength = prompt("Password length should be 8-128 characters. Try again.")
+    passLength = prompt("Password length must be 8-128 characters. Try again.")
 }
 
 //function to write pw
@@ -13,6 +15,7 @@ function writePassword() {
     var passwordText = document.querySelector("#password");
     passwordText.value = password;
 }
+
 //prompts to user to choose pw components
 var confirmSpecialCharacter = confirm("Do you want special characters in your password?");
 var confirmUpperCase = confirm("Do you want uppercase letters in your password?");
@@ -41,14 +44,22 @@ function generatePassword() {
         newPw += number
     }
     //for loop to match choices of characters to the choice of password length to give final output
-    for (var i = 0; i < userChoiceLength; i++) {
+    for (let i = 0; i < userChoiceLength; i++) {
         output += newPw.charAt(Math.floor(Math.random() * newPw.length));
+
     }
     return output;
 }
 
+function copyPassword() {
+    passwordTextarea.select();
+    document.execCommand("copy");
+    passwordTextarea.innerHTML = "";
+}
+
 //adding event listener to the generate button
 generateBtn.addEventListener("click", writePassword);
+copyButton.addEventListener("click", copyPassword);
 
 //variable arrays
 var specialChar = "!%&,*-./<>?~";
