@@ -15,3 +15,6 @@ Uses:
 HTML
 CSS
 JavaScript
+
+URL of deployed application:
+URL of Github repository:
