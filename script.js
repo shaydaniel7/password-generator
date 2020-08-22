@@ -58,6 +58,8 @@ function generatePassword() {
 var newPw = "";
 var userChoiceLength = parseInt(passLength);
  output = "";
+ console.log("Generate another!")
+
 
 //conditions that user wants to make up the pw
 if (confirmSpecialCharacter) {
@@ -76,14 +78,13 @@ if (confirmNumber) {
 //for loop to match choices of characters to the choice of password length to give final output
 for (let i = 0; i < userChoiceLength; i++) {
     output += newPw.charAt(Math.floor(Math.random() * newPw.length));
-
 }
 return output;
+
 }
 
 //adding event listener to the generate button
 generateBtn.addEventListener("click", writePassword);
-
 
 //variable arrays
 var specialChar = "!%&,*-./<>?~"; 11
