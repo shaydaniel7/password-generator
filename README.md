@@ -26,6 +26,6 @@ HTML, CSS and JavaScript
 ### URL of deployed application: 
 https://shaydaniel7.github.io/pwgenerator2/
 
-***
+
 ### URL of Github repository: 
 https://github.com/shaydaniel7/pwgenerator2
