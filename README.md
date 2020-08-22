@@ -4,12 +4,12 @@
 
 This website generates a random password for the user. It includes the following:
 
-1. Option for user to pick number of characters
-2. Option to include special characters 
-3. Option to include uppercase letters
-4. Option to include lowercase letters
-5. Option to choose the length of the password
-6. Generator will generate as many passwords as user would like to have.
+  * Option for user to pick number of characters
+  * Option to include special characters 
+  * Option to include uppercase letters
+  * Option to include lowercase letters
+  * Option to choose the length of the password
+  * Generator will generate as many passwords as user would like to have.
 
 
 ### USES: 
