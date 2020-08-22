@@ -1,4 +1,4 @@
-###Random Password Generator
+Random Password Generator
 
 Purpose - 
 A website that generates a random secure password for the user. Includes the following:
