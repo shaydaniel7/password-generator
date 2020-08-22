@@ -11,13 +11,7 @@ A website that generates a random secure password for the user. Includes the fol
 6. Generator will generate as many passwords as user would like to have.
 
 
-USES:
-
-HTML
-
-CSS
-
-JavaScript
+USES: HTML, CSS and JavaScript
 
 SCREENSHOT:
 
