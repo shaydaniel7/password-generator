@@ -11,9 +11,12 @@ A website that generates a random secure password for the user. Includes the fol
 6. Generator will generate as many passwords as user would like to have.
 
 
-Uses: 
+USES:
+
 HTML
+
 CSS
+
 JavaScript
 
 URL of deployed application: https://shaydaniel7.github.io/pwgenerator2/
