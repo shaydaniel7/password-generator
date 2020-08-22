@@ -16,5 +16,5 @@ HTML
 CSS
 JavaScript
 
-URL of deployed application:
+URL of deployed application: https://shaydaniel7.github.io/pwgenerator2/
 URL of Github repository:
