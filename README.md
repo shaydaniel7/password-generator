@@ -1,7 +1,6 @@
 # Random Password Generator
 
 ### Purpose
-
 This app generates a random password for the user. It includes the following:
 
   * Option for user to pick number of characters
