@@ -2,7 +2,7 @@
 
 ### Purpose
 
-This website generates a random password for the user. It includes the following:
+This app generates a random password for the user. It includes the following:
 
   * Option for user to pick number of characters
   * Option to include special characters 
